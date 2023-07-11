@@ -1,11 +1,14 @@
 // import { type } from "@testing-library/user-event/dist/type"
-import { SELECT_SONGS } from "./actionTypes"
+import { SELECT_SONGS } from "./ActionTypes"
 
 //Role of the this file is to create action type
 
 export const selectSongs =()=>{
     return{
         type:SELECT_SONGS,
-        payload: song
+        value: value
+        
     }
 }
+
+export default selectSongs;

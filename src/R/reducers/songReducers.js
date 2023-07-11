@@ -1,4 +1,4 @@
-import { SELECT_SONGS } from "../Actions/actionTypes";
+import {SELECT_SONGS} from "../Actions/ActionTypes"
 
 const INITIAL_STATE = null;
 

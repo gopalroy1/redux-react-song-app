@@ -1,4 +1,5 @@
-const dataReducer =()=>{
+const dataReducer =()=>(
+    
     [
         {
             name: "song name",author: "ABC", duration:"97", genre:"xyx genre",album:"albumname"
@@ -25,6 +26,6 @@ const dataReducer =()=>{
             name: "song name8",author: "ABC", duration:"97", genre:"xyx genre",album:"albumname"
         },
     ]
-}
+)
 
 export default dataReducer;
